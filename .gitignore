@@ -1,7 +1,7 @@
 # Ignore for now
 Glego.PSSqlServer
 
-/Private/
+/Private
 
 # Created by https://www.gitignore.io/api/linux,windows,visualstudiocode
 
@@ -27,7 +27,6 @@ Glego.PSSqlServer
 !.vscode/launch.json
 !.vscode/extensions.json
 .history
-private
 
 ### Windows ###
 # Windows thumbnail cache files
