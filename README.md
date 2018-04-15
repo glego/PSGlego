@@ -1,14 +1,19 @@
 # psglego
-Private repository with my PowerShell Scripts and Modules
+Private repository with my PowerShell Scripts and Modules. 
 
 ## Walkthrough
 
 ### Modules
 
 * `Glego.PSSystem`: System related commands mostly to get certain information about the system.
+* `Glego.PSUtility`: Various utilities for data manipulation (xml,csv,json,xls), web-api, emails and compression.
+
+Upcoming...
 * `Glego.PSSQLServer`: Microsoft SQL related commands, like connecting to a database.
-* `Glego.PSXml`: Read, write or modify xml data.
-* `Glego.PSWebApi`: Interact with web api's.
+
+### Scripts
+* `Scripts`: Properly documented scripts.
+* `Playground`: Basically scripts which are poorly documented, POC or just fooling around with PowerShell.
 
 ## References
 
