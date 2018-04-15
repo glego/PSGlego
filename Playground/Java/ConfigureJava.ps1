@@ -50,12 +50,12 @@ Function Add-Env-Path ([String]$AddedFolder) {
     # See if a new folder has been supplied.
 
     IF (!$AddedFolder)
-    { Return �No Folder Supplied. $ENV:PATH Unchanged�}
+    { Return "No Folder Supplied. $ENV:PATH Unchanged"}
 
     # See if the new folder exists on the file system.
 
     IF (!(TEST-PATH $AddedFolder))
-    { Return �Folder Does not Exist, Cannot be added to $ENV:PATH� }
+    { Return "Folder Does not Exist, Cannot be added to $ENV:PATH" }
 
     # See if the new Folder is already in the path.
 
