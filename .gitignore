@@ -1,4 +1,7 @@
-Private
+# Ignore for now
+Glego.PSSqlServer
+
+/Private/
 
 # Created by https://www.gitignore.io/api/linux,windows,visualstudiocode
 
