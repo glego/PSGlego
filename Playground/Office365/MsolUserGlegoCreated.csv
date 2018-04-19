@@ -1,0 +1,7 @@
+﻿#TYPE Selected.Microsoft.Online.Administration.UserExtended
+"UserPrincipalName","Password","DisplayName","IsLicensed"
+"wilma.flintstone@glego.xyz","Toj05923","Wilma Flintstone","True"
+"pebbles.flintstone@glego.xyz","Mud02743","Pebbles Flintstone","True"
+"barney.rubble@glego.xyz","Taz35058","Barney Rubble","True"
+"betty.rubble@glego.xyz","For13042","Betty Rubble","True"
+"bamm-bamm.rubble@glego.xyz","Xaf72159","Bamm-Bamm Rubble","True"

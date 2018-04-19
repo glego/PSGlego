@@ -1,0 +1,3 @@
+﻿#TYPE System.Management.Automation.PSCustomObject
+"DisplayName","FirstName","LastName","UserPrincipalName","UsageLocation","LicenseAssignment"
+"Fred Flintstone","Fred","Flintstone","fred.flintstone@glego.xyz","DE","glego:ENTERPRISEPACK"

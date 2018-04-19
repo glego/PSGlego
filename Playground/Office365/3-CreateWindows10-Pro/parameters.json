@@ -1,0 +1,57 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "westeurope"
+        },
+        "virtualMachineName": {
+            "value": "Win10-Fred"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_GS1"
+        },
+        "adminUsername": {
+            "value": "Glego"
+        },
+        "virtualNetworkName": {
+            "value": "rgFred-vnet"
+        },
+        "networkInterfaceName": {
+            "value": "win10-fred671"
+        },
+        "networkSecurityGroupName": {
+            "value": "Win10-Fred-nsg"
+        },
+        "adminPassword": {
+            "value": null
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "rgfreddiag376"
+        },
+        "diagnosticsStorageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "Microsoft.Storage/storageAccounts/rgfreddiag376"
+        },
+        "addressPrefix": {
+            "value": "10.0.0.0/24"
+        },
+        "subnetName": {
+            "value": "default"
+        },
+        "subnetPrefix": {
+            "value": "10.0.0.0/24"
+        },
+        "publicIpAddressName": {
+            "value": "Win10-Fred-ip"
+        },
+        "publicIpAddressType": {
+            "value": "Dynamic"
+        },
+        "publicIpAddressSku": {
+            "value": "Basic"
+        }
+    }
+}
