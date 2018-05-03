@@ -24,8 +24,10 @@ choco install visualstudiocode
 choco install boostnote
 
 choco install git
+choco install openssh
 choco install python2
 choco install phantomjs
+choco install vagrant
 
 choco install crystaldiskinfo
 choco install sysinternals
@@ -37,6 +39,7 @@ choco install firefox
 choco install chromium
 
 choco install fscapture
+choco install screentogif
 
 choco install inkscape
 choco install gimp
@@ -73,3 +76,4 @@ choco install microsoft-message-analyzer
 choco install nmap
 
 choco install etcher
+
