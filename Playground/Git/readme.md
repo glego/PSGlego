@@ -7,7 +7,6 @@ Playground with git for Windows.
 * [Create Repository](#create-repository): Different ways to create a repository
 * [Local Changes](#local-changes): Modify snapshots of local changes
 * [Git Branch](#git-branch): Switch to different branches
-* [](#)
 
 ### Create Repository
 
