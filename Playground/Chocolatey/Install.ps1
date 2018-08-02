@@ -1,7 +1,7 @@
 # Make sure to start PowerShell as Administrator
 
 # Install Chocolatey
-Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
 choco feature enable -n allowGlobalConfirmation
 choco feature disable -n allowGlobalConfirmation
@@ -31,6 +31,7 @@ choco install vagrant
 
 choco install crystaldiskinfo
 choco install sysinternals
+choco install dependencywalker
 choco install windirstat
 choco install ccleaner
 
